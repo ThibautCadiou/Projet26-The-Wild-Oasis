@@ -13,7 +13,7 @@ export function useCheckout() {
       queryClient.invalidateQueries({ active: true });
     },
 
-    onError: () => toast.error('Zut, una problemo'),
+    onError: () => toast.error('Zut, una problemo during chekcout ma friend'),
   });
 
   return { checkout, isCheckingOut };
